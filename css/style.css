@@ -1,0 +1,300 @@
+
+body{
+	font: Segoe;
+	font-size: 12px;
+	color: #666;
+	margin: 0;
+}
+
+header{
+	background-color:#FFFFFF;
+	text-align: center;
+	color: #000000;
+	position: absolute;
+	width: 100%;
+	top:0;
+	z-index: 9999;
+}
+
+header h1{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: 200;
+	font-size: 14px;
+}
+#sec-hero{
+	background-image: url( "../img/cover.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 100px 0;
+	color: #000000;
+	padding-bottom: 90px;
+}
+
+#sec-hero .fondo-blanco{
+	background-color: #fff;
+	text-align:center;
+}
+#sec-hero h6{
+	font-size: 16px;
+	text-align-last: center;
+	letter-spacing: 10px;
+	color: #000000;
+	text-align:center;
+	text-transform: uppercase;
+    margin-left: 40px;
+	margin-right: 40px;
+}
+#sec-hero h2{
+	margin-top: 60px;
+	letter-spacing: 10px;
+	font-size: 20px;
+	color: black;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+#sec-hero p{
+	font-size: 14px;
+	color:#FD0004;
+	font:Segoe;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	margin-right: 60px;
+padding-bottom: 30px;
+}
+
+#sec-quote{
+	background-color: #000;
+	text-transform: uppercase;
+	color: #aaa;
+	padding-top: 30px;
+}
+
+#sec-title h3{
+	font:Segoe;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-weight: 400;
+	color:#000000;
+	text-align: center;
+	padding: 20px;
+}
+#sec-title p{
+	text-align: center;
+	font-size: 16px;
+	color: #aaa;
+	font: segoe;
+	letter-spacing: 1px;
+	
+}
+
+
+#sec-practice{
+	border-bottom: 1px solid #eee;
+}
+#sec-practice h2 {
+	font-size: 24px;
+	font:Segoe;
+    color: #000000;;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-weight: 400;
+	text-align: center;
+	padding: 30px;
+	
+}
+#sec-practice .bg-image{
+	background-image: url( "../img/Shift the time_edited.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 1px solid #eee;
+}
+
+#sec-practice .sec-espacio{
+	padding: 80px 30px;
+}
+
+#sec-practice h3{
+	font-size: 14px;
+	font:Segoe;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	color:#000000;	
+}
+#sec-practice .row{
+	margin-top: 10px;
+}
+#sec-practice .icon{
+	border: 1px solid #111;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	color: #0F0000;
+}
+#sec-practice p{
+	font-size: 10px;
+	letter-spacing: 1px;
+	color: #aaa;
+	margin-left: 30px;
+	margin-right: 30px;
+	font:Segoe;
+}
+#sec-practice .fas{
+	font-size: 28px;
+	color: #000000;
+}
+
+#sec-proyectos{
+	padding: 60px;
+	text-align: center;
+}
+#sec-proyectos h2{
+	padding: 30px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-weight: 400;
+	color:#000000;	
+}
+#sec-proyectos p{
+	padding: 30px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: #aaa;
+	margin-left: 30px;
+	margin-right: 30px;
+	font:Segoe;
+    font-size: 16px;
+}
+
+
+#sec-request{
+	background-image: url( "../img/contact.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 50px 0;
+	color: #fff;
+	position: relative; 
+}
+#sec-request .bg-overlay{
+	opacity: 1;
+}
+#sec-request .titulo{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+#sec-request .btn{
+	background-color: transparent;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+
+.icon-counter{
+	font-size: 40px;
+}
+
+#sec-blog .titulo,
+#sec-blog .subtitulo{
+	text-align: center;
+}
+#sec-blog .subtitulo{
+	font-size: 16px;
+	color: #000;
+	width: 60%;
+	margin: 20px auto 45px;
+}
+
+.blog-info{
+	margin-top: 20px;
+}
+.blog-info .title{
+	border-bottom: 1px dotted #c2c2c2;
+	margin-bottom: 5px;
+}
+.blog-info .title h4{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.blog-info .title p{
+	color: #aaa;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.blog-info .title a,
+.blog-info .content a{
+	color: #000;	
+}
+.blog-info .title a:hover,
+.blog-info .content a:hover{
+	color: #aaa;
+	text-decoration: none;
+}
+
+
+#footer-menu{
+	background-color: black;
+	color: #fff;
+	padding: 20px 0;
+}
+#footer-menu h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	border-bottom: 1px dotted #666;
+	letter-spacing: 4px;
+	padding-bottom: 5px;
+}
+#footer-menu ul{
+	list-style: none;
+}
+#footer-menu ul a{
+	color: #aaa;	
+}
+#footer-menu ul a:hover{
+	color: #fff;	
+}
+
+#footer-copy{
+	background-color: #000;
+	color: #E0FF00;
+	padding: 10px 0;
+	font-size: 12px;
+}
+#footer-copy a{
+    color: #E0FF00;	
+	font-size: 14px;
+}
+#footer-copy a:hover{
+	color: #fff;
+	font-size: 14px;
+letter-spacing: 2px
+}
+
+.fas{
+    color: #000000;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

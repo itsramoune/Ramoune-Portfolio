@@ -1,0 +1,50 @@
+a{
+	outline:0 !important;	
+	font: Segoe;
+	letter-spacing: 8px;
+	font-size: 8px;
+	text-align-last: right;
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size:14px;	
+	color: antiquewhite;
+	
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #E0FF00;
+	text-transform: uppercase;
+}
+
+
+.navbar-light .navbar-nav .active .nav-link{
+	background-color:transparent;
+	color:#fff;
+}
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+
+.navbar-light .navbar-brand {
+	color: #E0FF00;		
+	height: auto;
+	text-transform: uppercase;
+	text-align: right;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:antiquewhite;
+}
+
+.carousel-caption{
+	top:50%;
+}
+
+
+
+
+
+
+
+
+
